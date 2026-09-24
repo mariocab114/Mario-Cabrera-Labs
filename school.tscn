@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://cq3l33jewuybp"]
+
+[ext_resource type="Texture2D" uid="uid://cn4orcanm873c" path="res://school.png" id="1_ydosa"]
+
+[node name="school" type="Sprite2D" unique_id=1647431058]
+position = Vector2(220, 451)
+texture = ExtResource("1_ydosa")

@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://cncn7hih84567"]
+
+[ext_resource type="PackedScene" uid="uid://cq3l33jewuybp" path="res://school.tscn" id="1_2c62f"]
+[ext_resource type="PackedScene" uid="uid://bs2sgh7sgot2a" path="res://tall_building.tscn" id="2_gyfs4"]
+
+[node name="Main" type="Node2D" unique_id=1084722295]
+
+[node name="school" parent="." unique_id=1647431058 instance=ExtResource("1_2c62f")]
+position = Vector2(961, 546)
+scale = Vector2(0.6, 0.6)
+
+[node name="TallBuilding" parent="." unique_id=143673666 instance=ExtResource("2_gyfs4")]
+position = Vector2(118, 369)
+
+[node name="TallBuilding2" parent="." unique_id=292412125 instance=ExtResource("2_gyfs4")]
+position = Vector2(577, 478.00003)
+scale = Vector2(0.6, 0.6)
+
+[node name="TallBuilding3" parent="." unique_id=2101602910 instance=ExtResource("2_gyfs4")]
+position = Vector2(299, 482)
+scale = Vector2(0.6, 0.6)
