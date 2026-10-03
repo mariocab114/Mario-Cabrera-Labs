@@ -2,6 +2,8 @@
 
 [ext_resource type="PackedScene" uid="uid://cq3l33jewuybp" path="res://school.tscn" id="1_2c62f"]
 [ext_resource type="PackedScene" uid="uid://bs2sgh7sgot2a" path="res://tall_building.tscn" id="2_gyfs4"]
+[ext_resource type="Texture2D" uid="uid://qghxqi5loupr" path="res://icon.svg" id="3_d5x1h"]
+[ext_resource type="Script" uid="uid://brrque7553xdf" path="res://player.gd" id="4_8mm7a"]
 
 [node name="Main" type="Node2D" unique_id=1084722295]
 
@@ -19,3 +21,9 @@ scale = Vector2(0.6, 0.6)
 [node name="TallBuilding3" parent="." unique_id=2101602910 instance=ExtResource("2_gyfs4")]
 position = Vector2(299, 482)
 scale = Vector2(0.6, 0.6)
+
+[node name="Player" type="Sprite2D" parent="." unique_id=1749767478]
+position = Vector2(300, 66)
+texture = ExtResource("3_d5x1h")
+script = ExtResource("4_8mm7a")
+speed = 600.0

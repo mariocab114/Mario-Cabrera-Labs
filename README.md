@@ -16,3 +16,9 @@ and three tall buildings.
 
 ## Questions
 -How can we take what we learned in our first lab and build upon it for every following lab?
+
+## Lab 2
+- Added a Player node (Sprite2D) with the script player.gd
+- Exported variables: speed and highlight_color (editable in the Inspector)
+- Arrow keys move the player, holding Space changes its color, holding left click spins it
+- Uses if / elif / else to decide what happens for each input
